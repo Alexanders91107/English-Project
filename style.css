@@ -25,7 +25,8 @@ ul {
     padding: 0;
     overflow: hidden;
     border-radius: 0.5rem;
-    background: linear-gradient(90deg, var(--clr-6), var(--clr-4));;
+    font-size: 0.9rem;
+    background: linear-gradient(90deg, var(--clr-6), var(--clr-2));;
   }
   
   li {
@@ -44,7 +45,7 @@ ul {
   }
   
   li a:hover {
-    background: linear-gradient(90deg, var(--clr-2), var(--clr-5));
+    background: linear-gradient(90deg, var(--clr-4), var(--clr-5));
     color: var(--clr-6);
   }
 
@@ -109,5 +110,5 @@ ul {
 
 @keyframes rotation {
     0%    {--gradient-angle: 0deg;}
-    100%  {--gradient-angle: 720deg;}
+    100%  {--gradient-angle: 1440deg;}
 }
