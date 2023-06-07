@@ -26,7 +26,7 @@ ul {
     overflow: hidden;
     border-radius: 0.5rem;
     font-size: 0.9rem;
-    background: linear-gradient(90deg, var(--clr-1), var(--clr-3));
+    background: linear-gradient(90deg, var(--clr-6), var(--clr-3));
   }
   
   li {
