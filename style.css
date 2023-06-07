@@ -26,7 +26,7 @@ ul {
     overflow: hidden;
     border-radius: 0.5rem;
     font-size: 0.9rem;
-    background: linear-gradient(90deg, var(--clr-6), var(--clr-2));;
+    background: linear-gradient(90deg, var(--clr-1), var(--clr-3));
   }
   
   li {
@@ -52,7 +52,7 @@ ul {
 .card{
     display: block;
     height: fit-content;
-    width: 99%; 
+    width: 97%; 
     background: var(--clr-1);
     border-radius: 0.5rem;
     display: grid; 
@@ -64,8 +64,8 @@ ul {
     font-size: 4rem;
     padding-top: 3dvh;
     padding-bottom: 3dvh;
-    padding-right: auto;
-    padding-left: auto;
+    padding-right: 2dvh;
+    padding-left: 2dvh;
     margin-top: 2cqi;
     margin-bottom: 2cqi;
     margin-left: auto;
@@ -78,13 +78,14 @@ ul {
     color: var(--clr-3);
     text-shadow: 0 0 0.1em currentColor;
     position: relative;
-    text-align: justify;
+    text-align: center;
 }
 
 .card-2 {
     font-size: 0.99rem;
     width: 80%;
 }
+
 .card::before,
 .card::after{
     content: "";
