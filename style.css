@@ -52,7 +52,7 @@ ul {
 .card{
     display: block;
     height: fit-content;
-    width: 97%; 
+    width: 90%; 
     background: var(--clr-1);
     border-radius: 0.5rem;
     display: grid; 
